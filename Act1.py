@@ -126,8 +126,11 @@ def navigate_the_maze():
                         print ("..")
                         time.sleep (1)
                         print ("..")
+                        print ()
                         print("A few paces further, you notice a wooden door with on your left. Your companion hounds are focused on the shadows ahead of you, where the threating sound was coming from.")
-                        print("Suddenly, the loud thuds return but ... ")
+                        time.sleep (1)
+                        print ()
+                        print("Suddenly, the loud noises return but ... ")
                         time.sleep (1)
                         print ("!!")
                         time.sleep (1)
@@ -143,7 +146,7 @@ def navigate_the_maze():
                         while True: 
                             user_response = input ("Do you fight or flee? Type 'fight' or 'flee': ")
                             if user_response.lower() == "fight" or user_response.lower() == "Fight" or user_response.lower() == "FIGHT":
-                                    print("The hounds rush into the darkness. You hear a deep growl from one of the hounds and a loud crash.")
+                                    print("Prepare to fight!")
                                     print("The stone head of one of your gaurd hounds slides out of the darkness. The other hound races out of the shadows, badly damaged.")
                         time.sleep (1)
                     elif user_response.lower() == "no":
